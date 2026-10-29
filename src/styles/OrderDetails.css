@@ -1,0 +1,111 @@
+order-items.order-details-container {
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5rem;
+}
+
+.order-details-header {
+    background-color: #762129;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+
+.order-detail-body{
+    padding: 10px;
+}
+
+.order-details-order-info {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.order-details-order-info .sub-item{
+    color: rgb(112, 111, 111);
+    padding: 4px;
+}
+.sub-item-0{
+    padding: 4px;
+}
+.order-details-head{
+    background: #762129;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* font-weight: bold; */
+}
+
+.order-details-head div{
+    flex: 1;
+}
+.order-items {
+    background: white;
+    color: #000000;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+/* .order-items-quantity{
+    text-align: center;
+} */
+
+.order-items div{
+    flex: 1;
+}
+
+.order-details-footer div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+.order-details-order-items .item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    font-size: 10px;
+}
+
+.item-header-icon{
+    font-size: 23px;
+    background-color: #762129;
+    height: 20px;
+    width: 20px;
+    color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.order-items-footer{
+    background: white;
+    color: #762129;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

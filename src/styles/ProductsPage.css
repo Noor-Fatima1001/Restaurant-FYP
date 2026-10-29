@@ -1,0 +1,173 @@
+.product-page {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.product-header {
+  background-color: #762129;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  min-height: 5rem;
+  text-align: start;
+  font-size: 33px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-id {
+  font-size: 14px;
+  color: #666;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #762129;
+}
+
+.special-price {
+  font-size: 16px;
+  color: rgb(255, 85, 0);
+  font-weight: bold;
+}
+
+.event-box {
+  color: #762129;
+  height: 40px;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #333;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+
+.catogory-div {
+  color: #666;
+}
+
+.product-quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.product-button {
+  background-color: #762129;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.product-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.product-input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-checkbox {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.checkbox-input {
+  height: 20px;
+  width: 20px;
+  appearance: none;
+  outline: none;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-input:checked {
+  background-color: #762129;
+  border-color: #762129;
+}
+
+.checkbox-input:checked::after {
+  content: '✔';
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.product-checkbox input {
+  height: 20px;
+  width: 20px;
+}
+
+.place-order-button {
+  background-color: #762129;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 0;
+  width: 80%;
+  position: fixed;
+  bottom: 3rem;
+}
+.place-order-button:disabled {
+  background-color: #86474d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 0;
+  width: 80%;
+}

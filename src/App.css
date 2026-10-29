@@ -1,0 +1,571 @@
+*::-webkit-scrollbar {
+  display: none; 
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ====================App.css===================== */
+.main{
+  padding-bottom: 10rem;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
+/* -==========================SideBar====================== */
+.menu-btn {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 11px;
+  left: 20px;
+  z-index: 1;
+  color: #f4f4f4;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  background-image: url(/images/backgroundimage.png);
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+  z-index: 1;
+  border-bottom-right-radius: 150px;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.sidebar-header h1 {
+  padding-left: 30px;
+  font-size: 24px;
+  margin: 0;
+}
+
+.sidebar-header p {
+  padding-left: 30px;
+  margin: 5px 0 20px;
+  font-size: 14px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+ 
+.sidebar-menu li div{
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%; 
+}
+
+.sidebar-menu li:hover {
+  background-color: #ffffff;
+  color: #762129; 
+}
+
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+.menu-arrow {
+  font-size: 20px;
+}
+
+/* -=====================Footer============================ */
+.footer{
+  height: 100%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-btn.active {
+  color: #762129;
+}
+
+.footer-icon {
+  font-size: 28px;
+}
+.footer-icon img{
+  height: 20px;
+  width: 20px;
+}
+
+/* ============================UserAccessPage===================== */
+.user-access-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.button-container-user-access-page{
+  width: 100%;
+}
+
+.welcome-title {
+  font-size: 24px;
+  color: #762129;
+  margin: 0;
+  font-family: 'Cursive', sans-serif;
+}
+
+.welcome-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0 20px;
+  line-height: 1.5;
+}
+
+.divider {
+  width: 40px;
+  height: 4px;
+  background-color: #762129; 
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.user-access-create-account-btn {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #762129; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.user-access-create-account-btn:hover {
+  background-color: #a61919;
+}
+
+.user-access-login-btn {
+  width: 80%;
+  padding: 10px;
+  background-color: #f5f5f5; 
+  color: #555;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #eaeaea;
+}
+
+
+
+/* ==============================================User info page ================================================================ */
+
+
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 24px;
+  background: white;
+  font-family: Arial, sans-serif;
+}
+
+.user-info-logo {
+  width: 96px;
+  height: 96px;
+  transform: rotate(-12deg);
+  margin-bottom: 32px;
+  fill: #762129;
+}
+
+.user-info-title {
+  color: #762129;
+  font-family: serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.user-info-subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.user-info-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.user-info-form input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 9999px;
+  background: #f3f4f6;
+  box-sizing: border-box;
+}
+
+.user-info-form input:focus {
+  outline: 2px solid #762129;
+}
+
+.continue-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 9999px;
+  background: #762129;
+  color: white;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background: #a61919;
+}
+
+.user-info-skip-link {
+  margin-top: 16px;
+  color: #666;
+  font-size: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+
+
+/* ========================ServicesDashboard=========================== */
+
+
+
+.servicesDashboard-container {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  font-family: Arial, sans-serif;
+}
+
+
+.servicesDashboard-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.servicesDashboard-subheader {
+  color: #666;
+  font-size: 14px;
+}
+
+.servicesDashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.servicesDashboard-menu-item {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.servicesDashboard-menu-item-image{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.servicesDashboard-red {
+  background: #762129;
+  color: white;
+}
+
+.servicesDashboard-gray {
+  background: #f5f5f5;
+  color: black;
+}
+
+.servicesDashboard-icon {
+  font-size: 24px;
+}
+
+.servicesDashboard-about-btn {
+  width: 100%;
+  background: #762129;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servicesDashboard-about-btn div{
+    flex: 1;
+}
+
+.servicesDashboard-star-icon {
+  font-size: 20px;
+}
+
+
+
+
+/* =======================================================Recover Email ============================================================ */
+
+.recovert-email-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(/images/backgroundimage.png);
+}
+.error-text{
+  color: red;
+  font-size: 15px;
+  margin-top: 4px;
+  padding-left: 5px;
+}
+
+.recory-input-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.recory-error{
+  padding-left: 15px;
+}
+.recovery-container input {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  font-size: 16px;
+  flex: 1;
+  border: #f4f4f4;
+  padding: 10px 15px;
+}
+
+.recovery-container input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+
+.recovery-menu{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.recovery-button {
+  background-color: #762129;
+  color: white;
+  width: 79%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.recovery-button:hover {
+  background-color: #a84e63;
+}
+
+/* ======================Reset Page =========================== */
+.recovery-header{
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  background-image: url(/images/backgroundimage.png);
+}
+
+.recory-input-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recovery-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px 0;
+  width: 79%;
+  /* overflow-x: hidden; */
+}
+.recory-error{
+  padding-left: 15px;
+}
+.recovery-container input {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  font-size: 16px;
+  flex: 1;
+  border: #f4f4f4;
+  padding: 10px 15px;
+}
+
+.recovery-container input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+
+.recovery-menu{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.recovery-button {
+  background-color: #762129;
+  color: white;
+  width: 79%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.recovery-button:hover {
+  background-color: #a84e63;
+}
+
+
+/* ================================Order Status Boxx ======================================== */
+.active-order-box{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.active-order-title{
+  color: #762129;
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.order-details-popup div{
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+.order-details-title{
+  color: #762129;
+  font-weight: bold;
+}
+.active-order-box-title{
+  font-size: 14px;
+  font-weight:500;
+  color: #762129;
+}
+.active-order-box-status{
+  color: #555;
+  font-size: 14px;
+}
+.active-order-box-price{
+  font-size: 22px;
+  color: #762129;
+  font-weight: bold;
+}
+
+
+/* ======================================================== GO Back Btn============================================= */
+.go-back-btn {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.go-back-btn:hover {
+  opacity: 0.7;
+}
+
+.go-back-btn img {
+  transform: scaleX(-1);
+  width: 40px;
+  height: auto;
+}

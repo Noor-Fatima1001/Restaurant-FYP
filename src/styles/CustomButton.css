@@ -1,0 +1,30 @@
+ .button {
+   height: 40px;
+   width: 79%;
+   border-radius: 25px;
+   border: 0.5px solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #762129;
+   margin-top: 5px;
+   cursor: pointer;
+ }
+
+ .buttonText {
+   font-size: 16px;
+   font-weight: 600;
+   color: #ffffff;
+   margin-left: 2px;
+ }
+
+ .logoContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 200px;
+  }
+
+ .logoImage {
+   object-fit: contain;
+ }

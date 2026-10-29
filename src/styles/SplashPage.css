@@ -1,0 +1,62 @@
+.splash-screen {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-image: url('/images/backgroundimage.png');
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.status-bar {
+  height: 20px;
+  background-color: black;
+}
+
+.background-image-splash-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-container {
+  margin-top: 30px;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+}
+
+.splas-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.splash-button {
+  background-color: #fff;
+  color: #762129;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+}

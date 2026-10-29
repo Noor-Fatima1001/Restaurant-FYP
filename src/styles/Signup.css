@@ -1,0 +1,152 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100%;
+}
+.google-signup-show{
+    display: block;
+}
+.google-signup-hide{
+    display: none;
+}
+.signUp-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(/images/backgroundimage.png);
+}
+
+.body-section {
+    height: 100%;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    padding-left: 10px;
+}
+
+.logo-section {
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.intro-section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.intro-section-title {
+    width: 75%;
+    color: #762129;
+    font-size: 32px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.intro-section-subtitle {
+    font-size: 16px;
+    color: #333;
+}
+
+.form-section {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.signup-page-input {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 0;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.signup-email-container {
+    display: flex;
+}
+
+.signup-password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.signup-email-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-password-container input {
+    flex-grow: 1;
+    padding-right: 40px;
+}
+
+.signup-password-container button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: #762129;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #5c1611;
+}
+
+.login-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-section p {
+    font-size: 14px;
+}
+
+.login-section .login-link {
+    font-size: 14px;
+    color: #762129;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toggle-password img {
+    width: 20px;
+    height: 20px;
+}

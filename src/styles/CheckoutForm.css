@@ -1,0 +1,250 @@
+
+
+.checkout-form-container {
+  background-color: #f4f4f4;
+  min-height: 100dvh;
+  flex-direction: column;
+}
+.checkout-form-title {
+  color: #762129;
+  font-size: 28px; 
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.5px; .checkout-form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.checkout-form-container {
+  background-color: #f4f4f4;
+  min-height: 100dvh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.test-mode-badge {
+  background: #ffcc00;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.pay-with-link-button {
+  background: #762129;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.divider-text {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.checkout-form-box {
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.checkout-form-title {
+  color: #762129;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout-card-input {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+
+.billing-section {
+  text-align: left;
+}
+
+.billing-dropdown,
+.postcode-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.save-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.checkout-pay-button,
+.checkout-cancel-button {
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  border: 0;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #762129;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.checkout-cancel-button {
+  background-color: #bbb;
+}
+
+.checkout-pay-button:hover {
+  background-color: #5a181e;
+}
+
+.checkout-pay-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.checkout-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.checkout-message {
+  font-size: 14px;
+  color: #333;
+}
+
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+
+.checkout-form-image img{
+  max-width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.checkout-card-input {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.checkout-pay-button {
+  height: 40px;
+  width: 79%;
+  color: #fff;
+  border: 0;
+  border-radius: 25px;
+  border: 0.5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #762129;
+  margin-top: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.checkout-pay-button:hover {
+  height: 40px;
+  width: 79%;
+  border-radius: 25px;
+  border: 0.5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #762129;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.checkout-pay-button:disabled {
+  height: 40px;
+  width: 79%;
+  border-radius: 25px;
+  border: 0.5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #762129;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.checkout-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.checkout-message {
+  font-size: 14px;
+  color: #333;
+}

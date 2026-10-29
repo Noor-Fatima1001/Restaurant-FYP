@@ -1,0 +1,99 @@
+.subscription-page {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+.subscription-header {
+  background-color: #762129;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  min-height: 5rem;
+  text-align: start;
+  font-size: 33px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-card {
+  border: 1px solid #ddd;
+  width: 80%;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscription-price {
+  color: #762129;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.subscription-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.active-badge {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.subscription-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe-button,
+.details-button {
+  background-color: #762129;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.subscribe-button:disabled,
+.details-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.place-order-button {
+  background-color: #762129;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.place-order-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
